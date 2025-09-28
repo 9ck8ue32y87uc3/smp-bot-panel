@@ -74,7 +74,7 @@ async function sendBotPanel(channel) {
     `:police_officer: **Modérateurs en ligne :**\n\`\`\`\n${staffText}\n\`\`\``;
 
   const embed = new EmbedBuilder()
-    .setTitle('📌 PANEL DU BOT')
+    .setTitle('📌 __PANEL DU BOT__')
     .setDescription(description)
     .setColor(0x5865F2)
     .setTimestamp();
